@@ -78,3 +78,56 @@ function loginUserMessage(userName) {
 
 console.log(loginUserMessage("yogesh"))    // this will return -- yogesh just logged in 
 console.log(loginUserMessage())           // this will print -- undefined just logged in
+
+
+
+
+
+
+
+// ------------Functions Continued------------------------
+
+//-----------rest operator-----------
+
+
+function calculateCartPrice(...price) {
+    return price;
+}
+
+console.log(calculateCartPrice(250, 50000, 789, 4545))    // this will print an array
+
+
+
+
+
+
+
+//-----Object---------Handle Object------------
+
+const user = {
+    userName: "Yogesh",
+    price: 999
+}
+
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.userName}, and price is ${anyobject.price}.`)
+}
+
+
+handleObject(user)
+
+
+
+
+
+// ---------array-----------handling array------------------
+
+
+const myNewArray = [200, 100, 150, 5500]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray))
