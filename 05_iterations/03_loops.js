@@ -31,7 +31,7 @@
 
 
 
-const map = new Map();
+const map = new Map();            // map iteratable nahi hai isliye for in loop nahi lagega.
 map.set('IN', 'India');
 map.set('USA', 'United State of America');
 map.set('Fr', "France");
