@@ -1,2 +1,3 @@
 # javascript
-Mastering Basics of javascript from scratch
+
+Mastering Basics of javascript from scratch.
