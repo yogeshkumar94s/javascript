@@ -5,13 +5,11 @@
 
 //         break
 
-//     default: 
+//     default:
 //         break
 // }
 
-
-
-// const month = 5; 
+// const month = 5;
 
 // switch (month) {
 //     case 1:
@@ -56,9 +54,3 @@
 
 //         break;
 // }
-
-
-
-
-
-
