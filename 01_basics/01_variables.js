@@ -2,7 +2,7 @@
 
 For example, if you declare a variable and give it a value enclosed in quotes, the browser treats the variable as a string:  */
 
-let myVarianle = "variable";
+let myName = "yogesh";
 
 /*
 As well as variables, you can declare constants. These are like variables, except that:
@@ -23,11 +23,10 @@ Answer: Variables in JavaScript are used to store and manage data. They are cont
 
 2. How do you declare a variable in JavaScript?
 
-Answer: You can declare a variable using the var, let, or const keyword, followed by the variable name, like this:
+Answer: You can declare a variable using the let, or const keyword, followed by the variable name, like this:
 
 javascript
 
-var x;
 let y;
 const z = 10;
 3. What is the difference between var, let, and const when declaring variables?
