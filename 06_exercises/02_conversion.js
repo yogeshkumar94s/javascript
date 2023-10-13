@@ -2,7 +2,7 @@
 
 // Answer
 
-// mplicit Data Type Conversion: Also known as "Type Coercion," it happens automatically when JavaScript converts data types without explicit instructions. For example, when using different data types in an arithmetic operation.
+// implicit Data Type Conversion: Also known as "Type Coercion," it happens automatically when JavaScript converts data types without explicit instructions. For example, when using different data types in an arithmetic operation.
 
 // Explicit Data Type Conversion: It occurs when you intentionally convert a value from one data type to another using functions or operators like parseInt(), parseFloat(), String(), and Number(). It requires a deliberate action from the programmer
 
@@ -203,13 +203,11 @@
 // To convert a string to an array in JavaScript, you can use the split() method. The split() method splits a string into an array of substrings based on a specified delimiter. Here's an example:
 
 // const myString = "Hello, world!";
-// const stringToArray = myString.split(", "); // Split the string at the comma and space
+// const stringToArray = myString.split(" "); // Split the string at the comma and space
 
 // console.log(stringToArray); // Output: [ 'Hello', 'world!' ]
 
-// In this example, the split(", ") method splits the myString at each comma and space, resulting in an array with the substrings "Hello" and "world!".
-
-// You can specify any delimiter you want, and the split() method will create an array by dividing the string wherever that delimiter occurs. If you don't provide a delimiter, it will split the string into individual characters.
+// In this example, the split(" ") method splits the myString at each comma and space, resulting in an array with the substrings "Hello", 'and',  "world!".
 
 //Q13:  How do you convert a number to a boolean in JavaScript using the Boolean() function?
 
@@ -372,7 +370,8 @@
 // Using the split('') method:
 
 // const myString = "Hello, world!";
-// const charArray = myString.split('');
+// const charArray = myString.split("");
+// const charArray = myString.split("");
 
 // console.log(charArray); // Output: ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!']
 
@@ -411,6 +410,10 @@
 //   strings.push(String(numbers[i]));
 // }
 
+// for (let i = 0; i < numbers.length; i++) {
+//   strings.push(String(numbers[i]));
+// }
+
 // console.log(strings); // Output: ['1', '2', '3', '4', '5']
 
 // 3.  Using the toString() method:
@@ -419,6 +422,7 @@
 
 // const numbers = [1, 2, 3, 4, 5];
 // const strings = numbers.map(num => num.toString());
+// const strings = numbers.map((num) => num.toString());
 
 // console.log(strings); // Output: ['1', '2', '3', '4', '5']
 
@@ -506,8 +510,8 @@
 
 // const date = new Date();
 // const unixTimestampInMilliseconds = date.getTime();
-
 // console.log(unixTimestampInMilliseconds);
+// console.log(typeof unixTimestampInMilliseconds); //number
 
 // The getTime() method returns the number of milliseconds since the Unix epoch (January 1, 1970), so you can directly use it to obtain the Unix timestamp in milliseconds.
 

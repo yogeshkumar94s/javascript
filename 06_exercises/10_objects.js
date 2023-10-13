@@ -1,14 +1,14 @@
-// let myUserOne = {
-//   name: "yogesh kumar",
-//   id: "1515abc",
-//   age: 26,
-//   sex: "male",
-//   job: {
-//     department: "production",
-//     role: "engineer",
-//     salary: 25000,
-//   },
-// };
+let myUserOne = {
+  name: "yogesh kumar",
+  id: "1515abc",
+  age: 26,
+  sex: "male",
+  job: {
+    department: "production",
+    role: "engineer",
+    salary: 25000,
+  },
+};
 
 // What is the name of the user stored in myUserOne?
 // What is the user's ID stored in myUserOne?
@@ -162,3 +162,12 @@
 // How do you check if the job object in myUserOne contains properties with values that are regular expressions?
 // Can you implement a function to calculate the user's projected retirement income, taking into account taxation and inflation, in myUserOne?
 // How can you find and extract all the property names and values in myUserOne, including nested properties within the job object, recursively?
+//  What are the built-in methods for working with objects in JavaScript?
+//  How do you iterate over the properties of an object?
+//  How can you copy an object in JavaScript?
+//  How do you create and use object methods?
+//  What is object prototype in JavaScript, and how does it relate to inheritance?
+//  How do you check the prototype of an object or its constructor?
+//  How can you extend an object's prototype or create a custom prototype?
+//  What is the difference between an object and a JSON string, and how can you convert between them?
+//  What are some common use cases for objects in JavaScript applications?

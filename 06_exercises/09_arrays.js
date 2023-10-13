@@ -1,26 +1,124 @@
-// const myArray = [1, 2, 3, 4, 5, 6, 7, 9, 10];
+const myArray = [1, 2, 8, 6, 8, 10, 44];
+// const myArray = [2, 4, 6, 8, 10];
 
-// What is the length of myArray?
-// How do you access the first element of myArray?
-// How do you access the last element of myArray?
-// How can you add a new element, say 8, to the end of myArray?
-// What is the value at index 3 in myArray?
-// Can you remove an element from myArray? If so, how?
-// How do you check if myArray contains the number 7?
-// What is the index of the number 4 in myArray?
-// How do you check if myArray is empty?
-// How can you clear all elements from myArray?
-// How can you create a copy of myArray?
-// How do you find the sum of all elements in myArray?
-// What is the average of the numbers in myArray?
-// How can you sort the elements of myArray in ascending order?
-// How can you sort the elements of myArray in descending order?
-// How do you reverse the order of elements in myArray?
-// Can you find the index of the smallest number in myArray?
-// Can you find the index of the largest number in myArray?
-// How can you remove the last element from myArray?
-// How do you add an element at the beginning of myArray?
-// How can you check if all elements in myArray are even numbers?
+// Q1  What is the length of myArray?
+
+// console.log(myArray.length);
+
+// Q2 How do you access the first element of myArray?
+// console.log(myArray[0]);
+
+// Q3 How do you access the last element of myArray?
+// console.log(myArray[myArray.length - 1]);
+
+// Q4 How can you add a new element, say 8, to the end of myArray?
+// myArray.push(99);
+// console.log(myArray);
+
+// Q5 What is the value at index 3 in myArray?
+// console.log(myArray[3]);
+
+// Q6 Can you remove an element from myArray? If so, how?
+// myArray.pop();
+// console.log(myArray);
+
+// Q7 How do you check if myArray contains the number 7?
+// console.log(myArray.includes(777)); // false
+
+// Q8 What is the index of the number 4 in myArray?
+// console.log(myArray.indexOf(4));
+
+// Q9 How do you check if myArray is empty?
+// if (myArray.length === 0) {
+//   console.log("myArray is empty");
+// } else {
+//   console.log("myArray is not empty");
+// }
+
+// Q10 How can you clear all elements from myArray?
+// const myNewArray = myArray.splice(0, myArray.length);
+// console.log(myArray);
+// console.log(myNewArray);
+
+// Q 11 How can you create a copy of myArray?
+// const copyOfArray = [...myArray];
+// console.log(copyOfArray);
+
+// Q12 How do you find the sum of all elements in myArray?
+// let sum = 0;
+// for (let i = 0; i < myArray.length; i++) {
+//   sum += myArray[i];
+// }
+// console.log(sum);
+
+// Q13 What is the average of the numbers in myArray?
+// let sum = 0;
+// for (let i = 0; i < myArray.length; i++) {
+//   sum += myArray[i];
+// }
+// let average = sum / myArray.length;
+// console.log(average);
+
+// Q14 How can you sort the elements of myArray in ascending order?
+// myArray.sort((a, b) => a - b);
+// console.log(myArray);
+
+// Q15 How can you sort the elements of myArray in descending order?
+// myArray.sort((a, b) => b - a);
+// console.log(myArray);
+
+// Q 16 How do you reverse the order of elements in myArray?
+// console.log(myArray.reverse);
+// console.log(myArray.reverse());
+// console.log(myArray.reverse());
+
+// Q17 Can you find the index of the smallest number in myArray?
+// const myArray1 = [4, 2, 7, 1, 9, 3, 6, 8, 10, 5];
+// let minIndex = 0;
+// let minValue = myArray1[0];
+
+// for (let i = 1; i < myArray1.length; i++) {
+//   if (myArray1[i] < minValue) {
+//     minValue = myArray1[i];
+//     minIndex = i;
+//   }
+// }
+// console.log(minIndex);
+// console.log(minValue);
+
+// Q18 Can you find the index of the largest number in myArray?
+// const myArray1 = [44, 22, 77, 11, 100, 90, 33, 66, 80, 1111, 9955];
+// let largestIndex = 0;
+// let largestValue = myArray1[0];
+
+// for (let i = 1; i < myArray1.length; i++) {
+//   if (myArray1[i] > largestValue) {
+//     largestIndex = i;
+//     largestValue = myArray1[i];
+//   }
+// }
+// console.log(largestIndex);
+// console.log(largestValue);
+
+// Q19 How can you remove the last element from myArray?
+// myArray.pop();
+// console.log(myArray);
+
+// Q20 How do you add an element at the beginning of myArray?
+// myArray.unshift(78787);
+// console.log(myArray);
+
+// Q20 How can you check if all elements in myArray are even numbers?
+// for (let i = 0; i < myArray.length; i++) {
+//   if (myArray[i] % 2 !== 0) {
+//     console.log("Not All Elements Are Not the Even Numbers");
+//     break;
+//   } else {
+//     console.log("Yes All the Elements Are the Even Numbers");
+//     break;
+//   }
+// }
+
 // How can you check if any element in myArray is greater than 10?
 // How do you extract a portion of myArray from index 2 to 5?
 // How do you concatenate myArray with another array, say [11, 12, 13]?
